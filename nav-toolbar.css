@@ -4,7 +4,7 @@ a {
     text-decoration: none!important;
 }
 a:hover {
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 body a.mainmenu {
@@ -18,7 +18,6 @@ body a.mainmenu {
 
 body a.mainmenu:hover {
     color: #8c83de;
-    text-decoration: underline;
     text-decoration: none!important;
     color: #fdcf8c!important;
     background: none;
@@ -26,12 +25,46 @@ body a.mainmenu:hover {
 
 
 .info-message-cat{
+    margin-top:20px;
     display: flex;
     justify-content: center;
     background: #f5c9a9;
-    color: white;
+    color: white!important;
     font-size: 14px;
     font-family: 'Vidaloka';
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.info-message-cat a.gensmall {
+    padding: 10px;
+}
+
+#fa_toolbar {
+    background-color: transparent;
+    color:#857f7f;
+    font-size: 14px;
+    height: 30px;
+    left: 0;
+    z-index: 20002;
+}
+
+#fa_right {
+    background: #ebebeb;
+    border-radius: 0 0 5px 5px;
+    font-size: 12px;
+}
+
+ul#fa_menulist {
+    background: #ebebeb;
+    border: none;
+    border-radius: 5px;
+}
+
+#fa_menulist li a, #fa_menulist :link, #fa_menulist :visited, #fa_share_text {
+    color:#857f7f!important;
+}
+
+#fa_share,#fa_left,#fa_icon,#fa_search {
+    display: none!important;
 }
