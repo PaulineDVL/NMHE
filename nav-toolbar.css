@@ -23,3 +23,15 @@ body a.mainmenu:hover {
     color: #fdcf8c!important;
     background: none;
 }
+
+
+.info-message-cat{
+    display: flex;
+    justify-content: center;
+    background: #f5c9a9;
+    color: white;
+    font-size: 14px;
+    font-family: 'Vidaloka';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
