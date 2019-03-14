@@ -1,1 +1,14 @@
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+body a.mainmenu {
+    color:#a2b9bb;
+    text-transform: uppercase;
+
+}
