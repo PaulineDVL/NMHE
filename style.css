@@ -106,7 +106,7 @@ filter:alpha(opacity=100);
   -moz-border-radius-bottomright:12px;
   -moz-border-radius-topleft:12px;
   -moz-border-radius-topright:12px;
-  background-color:red;
+  background-color:red!important;
   padding-left: 2px;
   padding-right: 2px;
   }
