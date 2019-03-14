@@ -8,8 +8,18 @@ a:hover {
 }
 
 body a.mainmenu {
-    color:#a2b9bb;
+    color: #a2b9bb!important;
     text-transform: uppercase;
     font-family: 'Vidaloka';
     letter-spacing: 1px;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+body a.mainmenu:hover {
+    color: #8c83de;
+    text-decoration: underline;
+    text-decoration: none!important;
+    color: #fdcf8c!important;
+    background: none;
 }
