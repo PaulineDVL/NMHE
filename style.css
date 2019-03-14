@@ -1,0 +1,220 @@
+/* QEEL */
+
+.qeel {
+text-shadow: 1px 1px 1px #000000;
+  font-weight: bold;
+  font-family: georgia;
+  font-size: 25px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+.surtexte {
+text-shadow: 1px 1px 1px #000000;
+  font-weight: bold;
+  font-family: georgia;
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+body {
+background-repeat: no-repeat;
+   background-position: none;
+}
+
+
+/* DESCRIPTION DES CATEGORIE */
+
+.boitehaut{
+width: 600px;
+color: #8C83DE;
+-moz-border-radius:7px;
+background-color: #C9D7FF;
+padding-right:10px;
+padding-bottom: 3px;
+padding-top:3px;
+}
+
+.boitebas{
+color: #8C83DE;
+-moz-border-radius:7px;
+background-color: #C9D7FF;
+padding-right:10px;
+padding-bottom: 3px;
+padding-top:3px;
+}
+
+.vignettes
+{-moz-border-radius:7px;
+background-color: #C9D7FF;
+color: #3964B0;
+padding-right:10px;
+padding-left:10px;
+padding-bottom: 3px;
+padding-top:3px;
+}
+
+/* TITRES DES CATEGORIE */
+
+a.forumlink:link, a.forumlink:visited {
+background-image: url("https://i.servimg.com/u/f32/15/32/83/31/0311.png");
+font-family: georgia;
+text-transform : uppercase;
+text-align: center;
+font-size: 100%;
+border-bottom: 5px solid #ffffff;
+color: #8C83DE;
+letter-spacing: 1px;
+display: block;
+-moz-border-radius:10px;
+}
+a.forumlink:hover, a.forumlink:hover:visited {
+background-image: url("https://i.servimg.com/u/f32/15/32/83/31/03_511.png");
+color: #8C83DE;
+text-align: center;
+display: block;
+border-bottom: 5px solid #couleur;
+-moz-border-radius:10px;
+}
+
+/* CODE POUR OPACITER */
+
+.pastaff {
+filter:alpha(opacity=50);
+-moz-opacity:0.5;opacity: 0.5;
+padding:4px;
+background-color:#97ACDE;
+margin:3px;
+-moz-border-radius:10px;
+border:2px solid #FFFFFF;
+}
+.pastaff:hover {
+filter:alpha(opacity=100);
+-moz-opacity:6;opacity: 1;
+}
+
+/* BARRE DE NAVIGATION */
+
+  a.mainmenu
+{
+  font-family: Century Gothic, serif;
+  font-size: 80%;
+  color: #FFFFFF;
+  text-align: center;
+  -moz-border-radius-bottomleft:12px;
+  -moz-border-radius-bottomright:12px;
+  -moz-border-radius-topleft:12px;
+  -moz-border-radius-topright:12px;
+  background-color:#C9D7FF;
+  padding-left: 2px;
+  padding-right: 2px;
+  }
+
+  a.mainmenu:hover
+{
+  font-family: Century Gothic, serif;
+  font-size: 80%;
+  color: #FFFFFF;
+  text-align: center;
+  -moz-border-radius-bottomleft:12px;
+  -moz-border-radius-bottomright:12px;
+  -moz-border-radius-topleft:12px;
+  -moz-border-radius-topright:12px;
+  background-color:#C2C2C2;
+  padding-left: 2px;
+  padding-right: 2px;
+  }
+
+/* PAGE D ACCUEIL */
+
+a:link {text-decoration: none; border: none;}
+a:visited {text-decoration: none; border: none;}
+a:hover {text-decoration: none; border: none;}
+a:active {text-decoration: none;border: none;}
+a {text-decoration: none; border: none;}
+
+.MENU {
+text-transform:normal;
+text-align:center;
+background-color: #C9D7FF;
+border-left:7px double #5D7B9E;
+border-right:7px double #5D7B9E;
+}
+
+
+.MENU:hover {
+text-align:center;
+text-transform:uppercase;
+background-color: #71A8DE;
+border-left:7px double #5D7B9E;
+border-right:7px double #5D7B9E;
+
+}
+
+.titre {
+text-align: left;
+color: #3964B0;
+font-size: 16px;
+font-family: georgia;
+font-weight:bold;
+font-style:italic;
+padding: 1px;
+margin-bottom : 2px;
+padding-left: 10px;
+border-bottom: 3px solid #FFFFFF;
+}
+
+#subnav A:link, #subnav A:visited, #subnav A:active {
+
+font-family: georgia;
+font-size: 13px;
+font-style:italic;
+text-align: center;
+padding: 2px;
+color: #8C83DE;
+background-color: transparent;
+line-height: 10px;
+display: block;
+}
+
+#subnav A:hover {
+color: #3964B0;
+background-color: #C9D7FF;
+letter-spacing: 2px;
+font-shadow: #C9D7FF 1px 1px 1px;}
+
+/* INFOBULLE STAFF */
+
+a.imginfo {
+border-bottom:0 solid #couleur;
+color:#couleur;
+position:relative;
+text-decoration:none;
+}
+a.imginfo span {
+display:none;
+}
+a.imginfo:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+cursor:help;
+z-index: 999;
+}
+a.imginfo:hover span {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:white none repeat scroll 0 0;
+border-color:#couleur;
+border-style:solid;
+border-width:3px 3px 5px 5px;
+display:inline;
+left:20px;
+padding:3px;
+position:absolute;
+top:15px;
+white-space:nowrap;
+}
