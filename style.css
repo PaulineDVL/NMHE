@@ -58,7 +58,7 @@ padding-top:3px;
 /* TITRES DES CATEGORIE */
 
 a.forumlink:link, a.forumlink:visited {
-background-image: url("https://i.servimg.com/u/f32/15/32/83/31/0311.png");
+background:red;
 font-family: georgia;
 text-transform : uppercase;
 text-align: center;
