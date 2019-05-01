@@ -83,6 +83,13 @@ a {
     border-radius: 10px;
     height: 40px; 
 }
+
+.img-new img {
+    width: 100%;
+    border-radius: 9px;
+    opacity: 0.4;
+}
+
 .forum .vava-last-message {
     width: 10%;
     margin: 10px; 
