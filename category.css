@@ -23,9 +23,9 @@ a {
   text-decoration: none; }
 
 .tleCAT {
-    width: 100%;
+    width: 800px;
+  margin: 0 auto;
     margin-bottom: -9px;
-    margin-left: 4px;
 }
 
 .forum {
