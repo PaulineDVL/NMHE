@@ -5,7 +5,8 @@ margin:0 auto 10px; width:650px;
 background:rgba(255,255,255,0.5); /* MODIFIABLE */
 }
 /* TITRE ENTÊTE */
-    margin-top: 20px;
+.tleLMBER th {
+        margin-top: 20px;
     display: flex;
     justify-content: center;
     background: #f5c9a9;
@@ -13,7 +14,7 @@ background:rgba(255,255,255,0.5); /* MODIFIABLE */
     font-size: 14px;
     font-family: 'Vidaloka';
     text-transform: uppercase;
-    letter-spacing: 1px; /* MODIFIABLE */
+    letter-spacing: 1px;
 }
 /* BLOC LISTE DES MEMBRES */
 #LMBER {
