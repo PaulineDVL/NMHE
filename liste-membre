@@ -1,0 +1,53 @@
+/* AFFICHAGE LISTE DES MEMBRES */
+/* BLOC ENTÊTE - RECHERCHER UN UTILISATEUR OU MODIFIER ORDRE AFFICHAGE */
+.tleLMBER {
+margin:0 auto 10px; width:650px; 
+background:rgba(255,255,255,0.5); /* MODIFIABLE */
+}
+/* TITRE ENTÊTE */
+.tleLMBER th {
+margin-bottom:5px; padding:5px 0; 
+text-transform:uppercase; font-family:Arial; font-size:16px; 
+background:black; color:white; /* MODIFIABLE */
+}
+/* BLOC LISTE DES MEMBRES */
+#LMBER {
+margin:auto; width:660px; 
+}
+ /* BLOC MEMBRE */
+#MBER {
+float:left; margin:0 5px 10px; 
+width:200px; height:360px; padding:5px 5px 0; font-family:Arial; 
+background:rgba(255,255,255,0.5); /* MODIFIABLE */
+}
+/* PSEUDONYME */
+.nameLMBER{
+width:200px; height:15px; padding-bottom:5px;
+text-align:center; text-transform:uppercase;
+}
+/* AVATAR */
+.imgLMBER img{
+width:200px; height:320px;
+}
+.imgLMBER div {
+position:relative; margin-top:-320px;
+width:200px; height:320px; overflow:hidden;
+}
+/* BLOC MESSAGES / INSCRIPTION / DERNIERE VISITE / INFORMATION */
+.imgLMBER div div{
+width:180px; height:300px; padding:10px; overflow:auto;
+background:rgba(255,255,255,0.8); color:black; /* MODIFIABLE */
+font-size:11px; text-align:justify;
+transform:translateY(640px); -webkit-transform:translateY(640px);
+transition:transform 0.85s linear; -webkit-transition:transform 0.85s linear;
+}
+#MBER:hover .imgLMBER div div{
+transform:translateY(320px); -webkit-transform:translateY(320px);
+}
+/* IMAGES MP * WWW */
+.btnLMBER {
+position:relative; z-index:3; margin:-10px auto 0;
+}
+.btnLMBER img {
+height:20px;
+}
