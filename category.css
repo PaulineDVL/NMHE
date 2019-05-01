@@ -22,106 +22,142 @@ a {
   color: #7eb5b9;
   text-decoration: none; }
 
+
 .forum {
-  width: 800px;
-  margin: 0 auto;
-  background: #f5f5f5;
-  display: flex;
-  justify-content: center;
-  align-items: top; }
-  .forum .info-new {
+    width: 800px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: top; 
+}
+.forum .info-new {
     width: 30%;
-    margin: 10px; }
-    .forum .info-new .last-message {
-      background: #ebebeb;
-      height: 80px;
-      border-radius: 10px;
-      text-align: center;
-      padding: 15px;
-      border: solid 1px whitesmoke; }
-      .forum .info-new .last-message span {
-        display: block;
-        text-transform: uppercase; }
-        .forum .info-new .last-message span.titre-last-message {
-          font-family: 'Vidaloka';
-          letter-spacing: 1px; }
-        .forum .info-new .last-message span.date-last-message {
-          letter-spacing: 1px;
-          font-size: 11px; }
-        .forum .info-new .last-message span.pseudo-last-message {
-          font-family: 'Vidaloka';
-          letter-spacing: 1px;
-          display: inline-block; }
-      .forum .info-new .last-message .icon {
-        color: #f5c9a9;
-        font-size: 17px;
-        text-shadow: 1px 1px 9px #f5c9a9; }
-    .forum .info-new .img-new {
-      border: solid 1px whitesmoke;
-      margin-top: 5px;
-      background: #f5c9a9;
-      border-radius: 10px;
-      height: 40px; }
-  .forum .vava-last-message {
+    margin: 10px; 
+}
+.forum .info-new .last-message {
+    background: #ebebeb;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    border: solid 1px whitesmoke;
+  line-height:17px;
+  font-size:10px;
+}
+.forum .info-new .last-message {
+    display: block;
+    text-transform: uppercase; 
+}
+.forum .info-new .last-message a{
+    font-family: 'Vidaloka';
+    letter-spacing: 1px;
+    color: #7eb5b9!important;
+    text-decoration: none;
+}
+
+.forum .info-new .last-message span{
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+.forum .info-new .last-message span strong a {
+    font-family: 'Vidaloka';
+    letter-spacing: 1px;
+    display: inline-block;
+      color: #807f80; 
+}
+.forum .info-new .last-message .icon {
+    color: #f5c9a9;
+    font-size: 17px;
+    text-shadow: 1px 1px 9px #f5c9a9; 
+}
+.forum .info-new .img-new {
+    border: solid 1px whitesmoke;
+    margin-top: 5px;
+    background: #f5c9a9;
+    border-radius: 10px;
+    height: 40px; 
+}
+.forum .vava-last-message {
     width: 10%;
-    margin: 10px; }
-    .forum .vava-last-message img {
-      width: 100%;
-      border-radius: 5px; }
-  .forum .info-forum {
+    margin: 10px; 
+}
+.forum .vava-last-message img {
+    width: 100%;
+    border-radius: 5px;
+  	height:auto!important;
+}
+.forum .info-forum {
     border: solid 1px whitesmoke;
     background: #ebebeb;
     border-radius: 15px;
     width: 60%;
     margin: 10px;
-    padding: 10px; }
-    .forum .info-forum .titre-forum {
-      color: #7eb5b9;
-      font-size: 17px;
-      text-shadow: 1px 1px 9px #7eb5b9;
-      font-family: 'Vidaloka';
-      letter-spacing: 1px;
-      text-align: center;
-      width: 100%;
-      display: block;
-      border-bottom: solid 1px #f5f5f5; }
-      .forum .info-forum .titre-forum i {
-        color: #f5c9a9;
-        font-size: 17px;
-        text-shadow: 1px 1px 9px #f5c9a9;
-        padding: 0 20px; }
-    .forum .info-forum p {
-      height: 57px;
-      overflow: auto;
-      text-align: justify;
-      margin: 5px 0; }
-    .forum .info-forum .voir-les-sf {
-      height: 13px;
-      overflow: none;
-      transition: all .3s ease;
-      overflow: hidden;
-      line-height: 18px; }
-      .forum .info-forum .voir-les-sf span {
-        text-align: center;
-        width: 100%;
-        display: block;
-        color: #f5c9a9;
-        text-transform: uppercase;
-        font-size: 11px;
-        text-shadow: 1px 1px 9px #f5c9a9;
-        padding: 0 20px; }
-      .forum .info-forum .voir-les-sf:hover {
-        height: 50px; }
-      .forum .info-forum .voir-les-sf p {
-        display: inline;
-        background: #f5c9a9;
-        margin: 2px 5px;
-        padding: 2px 5px;
-        text-transform: lowercase;
-        color: white;
-        font-family: sans-serif;
-        font-weight: 300;
-        letter-spacing: 1px;
-        transition: all .3s ease; }
-        .forum .info-forum .voir-les-sf p:hover {
-          background: #e8b896; }
+    padding: 10px;
+}
+.forum .info-forum .titre-forum {
+    color: #7eb5b9;
+    font-size: 17px;
+    text-shadow: 1px 1px 9px #7eb5b9;
+    font-family: 'Vidaloka';
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    border-bottom: solid 1px #f5f5f5; 
+  padding-bottom:7px;
+}
+
+.forum .info-forum .titre-forum a{
+  color: #7eb5b9;
+    font-size: 17px;
+}
+.forum .info-forum .titre-forum i {
+    color: #f5c9a9;
+    font-size: 17px;
+    text-shadow: 1px 1px 9px #f5c9a9;
+    padding: 0 20px;
+}
+.forum .info-forum p {
+    height: 57px;
+    overflow: auto;
+    text-align: justify;
+    margin: 5px 0; 
+}
+.forum .info-forum .voir-les-sf {
+    height: 15px;
+    overflow: none;
+    transition: all .3s ease;
+    overflow: hidden;
+    line-height: 18px; 
+}
+.forum .info-forum .voir-les-sf span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: #f5c9a9;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-shadow: 1px 1px 9px #f5c9a9;
+    padding: 0 20px; 
+}
+.forum .info-forum .voir-les-sf:hover {
+    height: 50px; 
+}
+.forum .info-forum .voir-les-sf .sous-forum-div a {
+    display: inline;
+    background: #f5c9a9;
+    margin: 2px 5px;
+    padding: 2px 5px;
+    text-transform: lowercase;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: all .3s ease; 
+  	color:white!important;
+  font-size : 13px;
+}
+.forum .info-forum .voir-les-sf .sous-forum-div a:hover {
+    background: #e8b896; 
+}
