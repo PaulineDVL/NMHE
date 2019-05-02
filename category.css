@@ -50,33 +50,33 @@ a {
   line-height:17px;
   font-size:10px;
 }
-.forum .info-new .last-message {
+.forum .info-new .laste-message {
     display: block;
     text-transform: uppercase; 
 }
-.forum .info-new .last-message a{
+.forum .info-new .laste-message a{
     font-family: 'Vidaloka';
     letter-spacing: 1px;
     color: #7eb5b9!important;
     text-decoration: none;
 }
 
-.forum .info-new .last-message span{
+.forum .info-new .laste-message span{
     letter-spacing: 1px;
     font-size: 11px;
 }
-.forum .info-new .last-message span strong a {
+.forum .info-new .laste-message span strong a {
     font-family: 'Vidaloka';
     letter-spacing: 1px;
     display: inline-block;
       color: #807f80; 
 }
-.forum .info-new .last-message .icon {
+.forum .info-new .laste-message .icon {
     color: #f5c9a9;
     font-size: 17px;
     text-shadow: 1px 1px 9px #f5c9a9; 
 }
-.forum .info-new .img-new {
+.forum .info-new .imge-new {
     border: solid 1px whitesmoke;
     margin-top: 5px;
     background: #f5c9a9;
@@ -84,7 +84,7 @@ a {
     height: 40px; 
 }
 
-.img-new img {
+.imge-new img {
     width: 100%;
     border-radius: 9px;
     opacity: 0.4;
