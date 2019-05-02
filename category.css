@@ -202,7 +202,7 @@ img.tleCATfoo {
     width: 804px;
 }
 
-td.catBottom {
+td.catBottom,.thHead, .thSides  {
   border:none!important;
 }
 
