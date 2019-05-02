@@ -1,1 +1,62 @@
 
+/* AFFICHAGE LISTE DES MEMBRES */
+/* BLOC ENTÊTE - RECHERCHER UN UTILISATEUR OU MODIFIER ORDRE AFFICHAGE */
+.tleLMBER {
+margin:0 auto 10px; width:800px; 
+background:rgba(255,255,255,0.5); /* MODIFIABLE */
+}
+/* TITRE ENTÊTE */
+.tleLMBER th {
+        margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background: #f5c9a9;
+    color: white!important;
+    font-size: 14px;
+    font-family: 'Vidaloka';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  padding:5px;
+}
+/* BLOC LISTE DES MEMBRES */
+#LMBER {
+margin:auto; 
+}
+ /* BLOC MEMBRE */
+#MBER {
+float:left; margin:0 5px 10px; 
+width:190px; height:auto; font-family:Arial; 
+background:rgba(255,255,255,0.5); /* MODIFIABLE */
+}
+/* PSEUDONYME */
+.nameLMBER{
+width:200px; height:25px; padding-bottom:5px;
+text-align:center; text-transform:uppercase; font-family:'Vidaloka';letter-spacing:1px; 
+padding:5px;
+}
+/* AVATAR */
+.imgLMBER img{
+width:188px; height:auto;
+}
+.imgLMBER div {
+position:relative; margin-top:-265px;
+width:188px; height:265px; overflow:hidden;
+}
+/* BLOC MESSAGES / INSCRIPTION / DERNIERE VISITE / INFORMATION */
+.imgLMBER div div{
+width:180px; height:300px; padding:10px; overflow:auto;
+background:rgba(255,255,255,0.8); color:black; /* MODIFIABLE */
+font-size:11px; text-align:justify;
+transform:translateY(640px); -webkit-transform:translateY(640px);
+transition:transform 0.85s linear; -webkit-transition:transform 0.85s linear;
+}
+#MBER:hover .imgLMBER div div{
+transform:translateY(320px); -webkit-transform:translateY(320px);
+}
+/* IMAGES MP * WWW */
+.btnLMBER {
+position:relative; z-index:3; margin:-10px auto 0;
+}
+.btnLMBER img {
+height:20px;
+}
