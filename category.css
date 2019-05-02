@@ -200,3 +200,7 @@ img.tleCATfoo {
     margin:0 auto;
     width: 804px;
 }
+
+td.catBottom {
+  border:none!important;
+}
