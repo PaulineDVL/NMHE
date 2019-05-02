@@ -175,7 +175,8 @@ a {
 }
 
 img.tleCATfoo {
+  display:block;
     box-sizing: border-box;
-    margin-left: 4px;
+    margin:0 auto;
     width: 804px;
 }
