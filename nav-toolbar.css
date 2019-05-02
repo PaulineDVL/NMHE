@@ -33,6 +33,9 @@ body a.mainmenu:hover {
     font-family: 'Vidaloka';
     text-transform: uppercase;
     letter-spacing: 1px;
+    width:800px;
+    display:block;
+    margin:30px auto;
 }
 
 .info-message-cat a.gensmall {
