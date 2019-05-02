@@ -1,0 +1,81 @@
+.mp_nouveau_rep {
+        width: 850px;
+        margin: 2% auto;
+}
+
+.mp_nouveau_rep img {
+    	margin: 0 2% 0 0;
+}
+
+table.message_profil {
+        background: #f5f5f5;
+        width: 800px;
+        margin: auto;
+  	border-radius: 10px;
+}
+
+/* TITRE */
+.mp_titre {
+        background: url(https://zupimages.net/up/19/18/06cm.png);
+            text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #7eb5b9!important;
+    /* padding: 20px; */
+    height: 100px;
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 10px; */
+    padding-top: 20px;
+  font-family:'Vidaloka';
+  text-align:center;
+}
+
+/* PROFIL */
+.message_profil td {
+    	vertical-align: top;
+}
+
+.mp_profil {
+        background: #ebebeb;
+        border-radius: 10px;
+        margin: 10px 0;
+        padding: 10px;
+        text-align: center;
+      border: solid 1px whitesmoke;
+}
+
+.mp_pseudo {
+        font-family: 'Vidaloka', cursive;
+        font-size: 33px;
+        font-weight: 400;
+        letter-spacing: 1px;
+  
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* AVATAR */
+.mp_avatar {
+    	margin: 10% 0;
+}
+
+/* INFOS PROFIL */
+.mp_infos {
+        text-align: left;
+        padding: 2%;
+}
+
+/* MESSAGE */
+/* Date */
+td.mp_date {
+    	text-align: right;
+}
+
+td.mp_message {
+    	padding: 2%;
+}
+
+td.mp_options img {
+   	margin: 0 0 5%;
+}
