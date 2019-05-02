@@ -157,7 +157,7 @@ a {
     margin: 5px 0; 
 }
 .forum .info-forum .voir-les-sf {
-    height: 15px;
+    max-height: 15px;
     overflow: none;
     transition: all .3s ease;
     overflow: hidden;
@@ -174,7 +174,7 @@ a {
     padding: 0 20px; 
 }
 .forum .info-forum .voir-les-sf:hover {
-    min-height: 50px; 
+    max-height: 100px; 
 }
 .forum .info-forum .voir-les-sf .sous-forum-div a {
     display: inline;
