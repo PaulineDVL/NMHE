@@ -1,0 +1,90 @@
+
+.qeel_evee {
+  background-image: url("https://zupimages.net/up/19/18/0pip.jpg");
+  width: 800px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto; }
+  .qeel_evee .qeel_groupe {
+    position: absolute;
+    top: 20px;
+    left: 45px;
+    display: flex;
+    width: 715px; }
+    .qeel_evee .qeel_groupe span {
+      flex-basis: 20%;
+      text-align: center;
+      opacity: 0;
+      height: 60px;
+      margin: 0px 10px; }
+      .qeel_evee .qeel_groupe span:first-of-type {
+        flex-basis: 25%; }
+      .qeel_evee .qeel_groupe span:nth-of-type(2) {
+        flex-basis: 15%; }
+      .qeel_evee .qeel_groupe span:nth-of-type(3) {
+        flex-basis: 25%; }
+      .qeel_evee .qeel_groupe span:nth-of-type(5) {
+        flex-basis: 25%; }
+      .qeel_evee .qeel_groupe span:nth-of-type(6) {
+        flex-basis: 15%; }
+    .qeel_evee .qeel_groupe #groupe1:hover + .info_groupe {
+      opacity: 1; }
+    .qeel_evee .qeel_groupe #groupe2:hover + .info_groupe {
+      opacity: 1; }
+    .qeel_evee .qeel_groupe #groupe3:hover + .info_groupe {
+      opacity: 1; }
+    .qeel_evee .qeel_groupe #groupe4:hover + .info_groupe {
+      opacity: 1; }
+    .qeel_evee .qeel_groupe #groupe5:hover + .info_groupe {
+      opacity: 1; }
+    .qeel_evee .qeel_groupe #groupe6:hover + .info_groupe {
+      opacity: 1; }
+    .qeel_evee .qeel_groupe .info_groupe {
+      position: absolute;
+      background: #ebebeb;
+      border: solid 1px #f5f5f5;
+      border-radius: 10px;
+      min-height: 100px;
+      width: 190px;
+      position: absolute;
+      left: 250px;
+      top: 120px;
+      text-align: left;
+      opacity: 0;
+      transition: all .2s ease;
+      z-index: 99; 
+padding:10px;}
+  .qeel_evee .qeel_stat {
+    position: absolute;
+    width: 225px;
+    height: 170px;
+    top: 110px;
+    left: 40px;
+    overflow: auto; }
+  .qeel_evee .qeel_info {
+    position: absolute;
+    width: 225px;
+    height: 110px;
+    top: 310px;
+    left: 40px;
+    overflow: scroll; }
+  .qeel_evee .qeel_new_member {
+    position: absolute;
+    top: 380px;
+    left: 295px;
+    width: 200px;
+    display: flex; }
+    .qeel_evee .qeel_new_member img {
+      width: 50px;
+      height: 80px; }
+  .qeel_evee .qeel_last {
+    position: absolute;
+    top: 150px;
+    width: 235px;
+    height: 270px;
+    right: 45px;
+    overflow: scroll; }
+  .qeel_evee .qeel_statistique {
+    position: absolute;
+    top: 100px;
+    left: 300px; }
