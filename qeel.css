@@ -1,3 +1,10 @@
+table#info-post-qeel {
+    margin: 0 auto;
+    /* background: orange; */
+    /* color: white; */
+    text-transform: uppercase;
+    line-height: 17px;
+}
 
 .qeel_evee {
   background-image: url("https://zupimages.net/up/19/18/0pip.jpg");
