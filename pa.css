@@ -1,10 +1,10 @@
-b, strong {
+#pa_evee b, #pa_evee strong {
   color: #e8b790; }
 
-i {
+#pa_evee i {
   color: #5ba9ab; }
 
-a {
+#pa_evee a {
   color: inherit;
   text-decoration: none; }
 
