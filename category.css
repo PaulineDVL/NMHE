@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  font-size: 13px;
-  color: #807f80; }
+  font-size: 13px; }
 
 ::-webkit-scrollbar {
   width: 5px;
@@ -19,7 +18,6 @@
   border-radius: 10px; }
 
 a {
-  color: #7eb5b9;
   text-decoration: none; }
 
 .tleCAT {
