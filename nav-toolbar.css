@@ -42,7 +42,7 @@ body a.mainmenu:hover {
 }
 
 #fa_toolbar {
-    background-color: transparent;
+    background-color: transparent!important;
     color:#857f7f;
     font-size: 14px;
     height: 30px;
