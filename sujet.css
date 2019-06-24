@@ -48,7 +48,7 @@ table.message_profil {
         overflow:hidden;
 }
 .mp_profil:hover {
-        max-height:auto;
+        max-height:1400px;
 }
 
 .mp_pseudo {
