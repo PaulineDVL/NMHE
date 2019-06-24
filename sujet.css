@@ -43,12 +43,12 @@ table.message_profil {
         padding: 10px;
         text-align: center;
       border: solid 1px whitesmoke;
-        height:735px;
+        max-height:735px;
         transition: all .4s ease;
         overflow:hidden;
 }
 .mp_profil:hover {
-        height:auto;
+        max-height:auto;
 }
 
 .mp_pseudo {
