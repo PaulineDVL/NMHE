@@ -51,7 +51,7 @@ body a.mainmenu:hover {
 }
 
 #fa_right {
-    background: #ebebeb;
+    background: #ebebeb!important;
     border-radius: 0 0 5px 5px;
     font-size: 12px;
 }
