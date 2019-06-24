@@ -65,7 +65,9 @@ table.message_profil {
         text-align: left;
         padding: 2%;
 }
-
+.mp_infos img{
+        max-width:190px;
+}
 /* MESSAGE */
 /* Date */
 td.mp_date {
